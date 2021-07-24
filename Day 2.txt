@@ -1,0 +1,18 @@
+
+Day 2
+
+import sys
+
+
+if __name__ == '__main__':
+    meal_cost = float(input().strip())
+
+    tip_percent = int(input().strip())
+
+    tax_percent = int(input().strip())
+    
+    tipAmount = meal_cost * tip_percent / 100
+    taxAmount = meal_cost * tax_percent / 100
+    totalAmount = round(meal_cost + tipAmount + taxAmount)
+    
+    print(str(totalAmount))
