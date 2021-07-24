@@ -1,0 +1,9 @@
+#Day 0
+
+
+input_string = input()
+
+print('Hello, World.')
+
+print(input_string)
+
